@@ -229,7 +229,8 @@ data () {
 },
 mounted() {
     let self = this
-    axios.get("http://localhost:1337/api/bands")
+    axios.get("http://192.168.1.244:1337/api/bands")
+    // axios.get("http://localhost:1337/api/bands")
     //axios.get("https://hudson-valley-underground-back.herokuapp.com/bands")
     .then(function(response){
     //console.log(response.data);
