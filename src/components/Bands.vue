@@ -235,7 +235,7 @@ mounted() {
     .then(function(response){
     //console.log(response.data);
     self.bands = response.data;
-    // console.log(self.bands.length);
+    console.log(self.bands.length);
 
     for(let i = self.bands.length - 1; i > 0; i--) {
       let randomIndex = Math.floor(Math.random() * i);
